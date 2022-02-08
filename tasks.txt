@@ -1,0 +1,43 @@
+Hello and welcome to our test!
+
+IMPORTANT: You will only have 60 minutes to complete the test.
+Please read the instruction of each task first and then start working on the code.
+You will have an initial time of 10 minutes to get yourself familiar with the code
+and install the project via npm/yarn install. The given time for each task is in the
+task description. You should be able to finish at least the first 4 tasks. 5 and 6 are
+a bonus.
+
+You can run the application with the command 'yarn start'
+
+*** Task 1 *** 5 minutes
+
+There ist a modal component (ChangeCardSetModal.jsx) which should open a modal when the user clicks the 'Current card set' button.
+The component is already there you just have to add it to the marked space in the Game.jsx file
+You only have to add the component and give it the right properties. All the properties are already there,
+you don't have to add something on your own (Game.jsx)
+
+*** Task 2 *** 10 minutes
+
+Implement a async function and use the fetch api or axios to get data from the starwars api (the url is already there)
+After the data is fetched call the 'dealCards' function with the results and set loading to false (useCards.jsx)
+
+*** Task 3 *** 20 minutes
+
+Add some styling for the card component and its table to the Card.css file.
+The Component should look like the screenshot picture in the public folder.
+If the user selects a property from the card the property should be highlighted in yellow.
+(Card.css)
+
+*** Task 4 *** 15 min
+Implement the game logic by immutable updating the state depending on who won the current round.
+You find tips to the logic in the code (useCards.jsx). The current cards for player and computer
+are stored in the player and computer state.
+
+*** Task 5 ***
+A admin area should be implemented with the help of redux. In the admin directory there is already a
+component which is reachable via '/admin'. The redux store is also there and you should now create a
+simple table component to display the initial data from the store
+
+*** Task 6 ***
+Add the opportunity to delete one of the elements using redux. Update your form first and add
+a confirmation popup. Then update the store based on the dispatched delete action.
