@@ -1,0 +1,32 @@
+h1 {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+.card{
+  padding: 15px;
+  border: 1px solid #000;
+}
+.card.back{
+  width:200px;
+  height: 100%;
+}
+.active{
+  background-color: yellow;
+}
+table tr:nth-child(odd){
+  background-color: lightgray;
+}
+table tr.active{
+  background-color: yellow;
+}
+img {
+  border-radius: 3px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.back {
+  height: 445px;
+  background-color: lightgreen;
+}

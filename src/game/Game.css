@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    margin-top: 10px;
+}
